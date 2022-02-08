@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <script type="text/javascript" src="index.js"></script>
+        <style>
+            div {
+                display: grid;
+                height: 50%;
+            }
+            div input,p{
+                border-radius: 10px;  
+                width: 50%;
+                margin: auto;
+                margin-top:10px;
+                height: 50%;
+            }
+            html, body{min-height:100%;}
+            body{height:100vh;}
+        </style>
+    </head>
+    <body>
+        <div> 
+            <input id="input" placeholder="Enter text here">
+            <p>no of times event fired using debouncing:- <span id="debouceCount">0</span></p>
+            <p>no of times event fired using throttling:- <span id="throttleCount">0</span></p>
+            <p>no of times event fired on chnage:- <span id="changeCount">0</span></p>
+        </div>
+    </body>
+</html>
